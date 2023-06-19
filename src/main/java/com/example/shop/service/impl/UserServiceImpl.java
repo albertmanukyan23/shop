@@ -30,7 +30,6 @@ public class UserServiceImpl implements UserService {
             user.setPassword(encodedPassword);
             userRepository.save(user);
         }
-
     }
 
     @Override

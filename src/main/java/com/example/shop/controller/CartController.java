@@ -4,7 +4,6 @@ import com.example.shop.entity.Cart;
 import com.example.shop.entity.Order;
 import com.example.shop.entity.Product;
 import com.example.shop.entity.User;
-import com.example.shop.repository.ProductRepository;
 import com.example.shop.security.CurrentUser;
 import com.example.shop.service.CartService;
 import com.example.shop.service.OrderService;
@@ -16,7 +15,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.LinkedHashSet;
 import java.util.Optional;

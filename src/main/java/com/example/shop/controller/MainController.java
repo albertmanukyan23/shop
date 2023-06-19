@@ -49,7 +49,7 @@ public class MainController {
                 return "redirect:/";
             }
         }
-        return "customLogin";
+        return "/customLogin";
 
     }
 
